@@ -17,18 +17,9 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 img {
-  padding: 1rem;
-  background-color: #fff;
-  text-align: center;
-  margin-left: 1em;
-  margin-right: 1em;
   display: inline-block;
-  display: none;
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -38,13 +29,8 @@ img {
   }
 
   img {
-    padding: 1rem;
-    background-color: #fff;
-    text-align: center;
-    margin-left: 1em;
-    margin-right: 1em;
     display: inline-block;
-    display: none;
+    width: 100%;
   }
 
 }
@@ -56,13 +42,8 @@ img {
   }
 
   img {
-    padding: 1rem;
-    background-color: #fff;
-    text-align: center;
-    margin-left: 1em;
-    margin-right: 1em;
     display: inline-block;
-    display: none;
+    width: 100%;
   }
 
 }
@@ -74,13 +55,8 @@ img {
   }
 
   img {
-    padding: 1rem;
-    background-color: #fff;
-    text-align: center;
-    margin-left: 1em;
-    margin-right: 1em;
     display: inline-block;
-    display: none;
+    width: 100%;
   }
 
 }
