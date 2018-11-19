@@ -32,26 +32,28 @@ img:nth-child(even) {
 
 @media only screen and (min-width: 25em) {
 
-  body {
-    margin: 0;
-  }
-
   img {
     display: inline-block;
-    width: 100%;
+    width: 50%;
+    float: left;
+    padding: .1em;
+  }
+
+  img:nth-child(even) {
+    display: inline;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  body {
-    margin: 0;
-  }
-
   img {
     display: inline-block;
-    width: 100%;
+    width: 33%;
+  }
+
+  img:nth-child(1) {
+    display: none;
   }
 
 }
@@ -59,12 +61,17 @@ img:nth-child(even) {
 @media only screen and (min-width: 60em) {
 
   body {
-    margin: 0;
+    margin-left: 2em;
+    margin-right: 2em;
   }
 
   img {
     display: inline-block;
-    width: 100%;
+    width: 25%;
+  }
+
+  img:nth-child(1) {
+    display: inline-block;
   }
 
 }
